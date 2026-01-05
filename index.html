@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VeriLens Visual trust for online shopping</title>
+
+  <!-- Hide from search engines (optional). Keep this ON for judges-only sharing. -->
+  <meta name="robots" content="noindex,nofollow" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="VeriLens home">
+        <img class="brand-logo" src="assets/logo.png" alt="VeriLens logo" />
+        <span class="brand-name">VeriLens</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#model">Model</a>
+        <a href="#brand">Brand</a>
+        <a href="#get">Get</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO (dark) -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Desktop browser extension</div>
+          <h1>See trust in every product listing.</h1>
+          <p class="lead">
+            VeriLens helps shoppers notice when product photos or clips seem off. We use light visual checks and share clear reasons with a heatmap so people can decide with confidence.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary store-btn" href="#get">Chrome Web Store</a>
+            <a class="btn btn-secondary store-btn" href="#get">Edge Add ons</a>
+          </div>
+
+          <div class="pill-row" aria-label="Key attributes">
+            <span class="pill">Real time scan</span>
+            <span class="pill">Clear reasons</span>
+            <span class="pill">Heatmap view</span>
+            <span class="pill">Guidance not verdicts</span>
+          </div>
+
+          <p class="micro">
+            *VeriLens gives indicators and simple reasons to support better decisions. It does not claim perfect certainty.
+          </p>
+        </div>
+
+        <!-- HERO VISUAL -->
+        <div class="hero-visual card">
+          <div class="card-title">Model preview</div>
+          <div class="model-img-wrap">
+            <img src="assets/image123.png" alt="VeriLens model preview screenshot" class="model-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY (white) -->
+    <section id="story" class="section section-white">
+      <div class="container">
+        <div class="section-head">
+          <h2>Story</h2>
+          <p class="section-sub">
+            Our mission, vision, and values at VeriLens.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card">
+            <div class="icon-bubble">M</div>
+            <h3>Mission</h3>
+            <p>
+              Bring trust back to online shopping with fast clear signals when media feels edited.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="icon-bubble">V</div>
+            <h3>Vision</h3>
+            <p>
+              A marketplace where anyone can check a listing in seconds and shop with calm.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="icon-bubble">V</div>
+            <h3>Values</h3>
+            <ul class="list">
+              <li><strong>Transparency</strong> We share reasons instead of mystery scores</li>
+              <li><strong>Accessibility</strong> Built for everyday shoppers with simple language</li>
+              <li><strong>Responsibility</strong> We avoid false alarms and keep results grounded</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid grid-2 mt">
+          <div class="card">
+            <h3>Why we built VeriLens</h3>
+            <p>
+              Product visuals shape buying choices and AI generated media makes it hard to know what is real. VeriLens gives shoppers clear, quick signals that users can understand without needing any technical knowledge.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Team</h3>
+            <p><strong>Nysa Bhasin</strong> Technical cofounder builds the detection logic and extension.</p>
+            <p><strong>Porsche Change</strong> Creative cofounder shapes the interface and demo. Porsche brings strong creative and editing skills from sports videography and photography.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODEL (dark) -->
+    <section id="model" class="section section-dark">
+      <div class="container">
+        <div class="section-head dark">
+          <h2>Model</h2>
+          <p class="section-sub">
+            What happens after someone taps <strong>Scan listing</strong>.
+          </p>
+        </div>
+
+        <div class="grid grid-4">
+          <div class="card card-light">
+            <div class="step">1</div>
+            <h3>Capture</h3>
+            <p>Find the key listing photos or clips.</p>
+          </div>
+
+          <div class="card card-light">
+            <div class="step">2</div>
+            <h3>Check visual consistency</h3>
+            <p>Run light visual checks to spot unusual patterns often linked to heavy editing or synthetic media.</p>
+          </div>
+
+          <div class="card card-light">
+            <div class="step">3</div>
+            <h3>Share indicators</h3>
+            <p>Give a risk label with short reasons in plain words.</p>
+          </div>
+
+          <div class="card card-light">
+            <div class="step">4</div>
+            <h3>Highlight</h3>
+            <p>Show a color coded heatmap pointing to the areas that look most unusual.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-3 mt">
+          <div class="img-card">
+            <img src="assets/1.png" alt="Listing screenshot" class="slot-img" />
+          </div>
+          <div class="img-card">
+            <img src="assets/2.png" alt="Heatmap overlay" class="slot-img" />
+          </div>
+          <div class="img-card">
+            <img src="assets/3.png" alt="Results panel UI" class="slot-img" />
+          </div>
+        </div>
+
+        <div class="card card-dark mt">
+          <h3>How we describe the model</h3>
+          <p>
+            VeriLens uses a set of lightweight explainable visual checks to flag unusual patterns often linked to heavy editing or synthetic media. We share indicators with brief reasons and a heatmap so shoppers can make informed choices without needing to know technical terms.
+          </p>
+          <div class="grid grid-3 tight">
+            <div>
+              <div class="benefit-title">Fast</div>
+              <p class="muted2">Built for real time use while shopping.</p>
+            </div>
+            <div>
+              <div class="benefit-title">Explainable</div>
+              <p class="muted2">Short reasons and a visual heatmap make results easy to read.</p>
+            </div>
+            <div>
+              <div class="benefit-title">Guidance</div>
+              <p class="muted2">Safeguards reduce false alarms by looking for natural photo cues.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT + FEASIBILITY (white) -->
+    <section id="impact" class="section section-white">
+      <div class="container">
+        <div class="section-head">
+          <h2>Feasibility and impact</h2>
+          <p class="section-sub">
+            Built as a working MVP and refined through real shopping runs.
+          </p>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Feasibility</h3>
+            <ul class="list">
+              <li>Working MVP browser extension that runs on live listings</li>
+              <li>Light CPU friendly checks keep scans quick</li>
+              <li>Explainable results with a score reasons and a heatmap</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Impact</h3>
+            <ul class="list">
+              <li>Reduce misleading purchases and shopping frustration</li>
+              <li>Improve consumer confidence at decision time</li>
+              <li>Promote transparency as AI generated product media grows</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid grid-2 mt">
+          <div class="card">
+            <h3>How we measure success</h3>
+            <ul class="list">
+              <li>Test across many listings and adjust to reduce false alarms</li>
+              <li>Listen to shopper feedback to improve clarity</li>
+              <li>Watch adoption and returning users to be sure it stays useful</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Roadmap</h3>
+            <ul class="list">
+              <li>Expand testing across more categories and platforms</li>
+              <li>Improve clarity of reasons and heatmap visuals</li>
+              <li>Explore advanced models for edge cases while keeping the simple flow</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRAND (white) -->
+    <section id="brand" class="section section-white">
+      <div class="container">
+        <div class="section-head">
+          <h2>Brand</h2>
+          <p class="section-sub">
+            Name, voice, design choices, and the identity behind VeriLens.
+          </p>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Voice</h3>
+            <p>
+              Calm, clear, and friendly. We share gentle cues and always explain why we flagged something.
+            </p>
+            <div class="quote">
+              VeriLens uses a set of lightweight explainable visual checks to flag unusual patterns often linked to heavy editing or synthetic media. We share indicators with short reasons and a heatmap so shoppers can decide with confidence.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Design system</h3>
+            <ul class="list">
+              <li><strong>Colors</strong> Purple navy and white palette</li>
+              <li><strong>Layout</strong> Clean sections with dark highlights for focus</li>
+              <li><strong>UI style</strong> Simple cards, clear hierarchy, visuals first with plain language</li>
+              <li><strong>Imagery</strong> Screenshots heatmaps and simple diagrams</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET (dark CTA) -->
+    <section id="get" class="section section-cta">
+      <div class="container cta-grid">
+        <div>
+          <h2>Get VeriLens</h2>
+          <p class="section-sub dark-sub">
+            Install from extension stores. This product will be available soon.
+          </p>
+          <div class="cta-row">
+            <!-- Replace # with your real store links when ready -->
+            <a class="btn btn-primary store-btn" href="#" target="_blank" rel="noopener">Chrome Web Store</a>
+            <a class="btn btn-secondary store-btn" href="#" target="_blank" rel="noopener">Edge Add ons</a>
+          </div>
+        </div>
+
+        <div class="card card-light">
+          <div class="card-title">Get Now On Chrome Web Store</div>
+          <img src="assets/web.png" alt="Chrome Web Store listing preview" class="slot-img" />
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="store-modal" aria-hidden="true">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content" role="dialog" aria-modal="true" aria-label="Store availability">
+        <button class="modal-close" aria-label="Close">X</button>
+        <h3>Coming soon</h3>
+        <p>Store links will be live soon. Thanks for your patience.</p>
+      </div>
+    </div>
+
+    <!-- FOOTER (dark) -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <img class="footer-logo" src="assets/logo.png" alt="VeriLens logo" />
+          <div>
+            <div class="footer-name">VeriLens</div>
+            <div class="footer-sub">Visual trust for online shopping</div>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-links">
+            <a href="#story">Story</a>
+            <a href="#model">Model</a>
+            <a href="#brand">Brand</a>
+            <a href="#get">Get</a>
+          </div>
+          <div class="footer-meta">© <span id="year"></span> VeriLens</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
